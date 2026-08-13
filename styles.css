@@ -105,3 +105,36 @@ body {
     border: #093d8a81 2px solid;
 }
 
+#roundButtonContainer {
+    display: none;
+}
+
+#continueBtn {
+    background-color: #198754;
+    border: #198754 2px solid;
+}
+
+#continueBtn:hover {
+    background-color: #105334;
+    border: #105334 2px solid;
+}
+
+#continueBtn:active {
+    background-color: #10533481;
+    border: #10533481 2px solid;   
+}
+
+#restartBtn {
+    background-color: #dc3545;
+    border: #dc3545 2px solid;
+}
+
+#restartBtn:hover {
+    background-color: #88232d;
+    border: #88232d 2px solid;
+}
+
+#restartBtn:active {
+    background-color: #88232d80;
+    border: #88232d80 2px solid;   
+}
