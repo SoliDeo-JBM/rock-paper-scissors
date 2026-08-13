@@ -14,7 +14,7 @@ body {
 .gameContainer {
     background-color: bisque;
     width: 500px;
-    height: 500px;
+    height: 550px;
     padding: 20px;
     border: burlywood 3.5px solid;
     border-radius: 20px;
@@ -31,6 +31,15 @@ body {
 #roundNum {
     background-color: #0dcaf0;
     color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#status {
+    margin-bottom: 0px;
+    background-color: #6b7785;
+    color: white;
+    display: inline;
     padding: 5px 15px;
     border-radius: 5px;
 }
@@ -55,15 +64,24 @@ body {
 }
 
 .gameImg {
-    width: 110px;
-    height: auto;
+    width: 120px;
+    height: 120px;
     padding: 5px;
+    background-color: #093c8a;
     border: white 2px solid;
     border-radius: 5px;
 }
 
 .gameImg.human {
     transform: scaleX(-1);
+}
+
+.gameButtonContainer input[type=text] {
+    width: 150px;
+    height: 35px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
 }
 
 .gameButtonContainer button {
