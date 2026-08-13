@@ -49,6 +49,7 @@ function playRound(humanChoice, computerChoice) {
     computerImg.src = `./images/${computerChoice}.png`;
 
   if (humanChoice === computerChoice) {
+    status.style.backgroundColor = "#6b7785";
     status.textContent = "Tie!"; 
   } else if (
     (humanChoice === "rock" && computerChoice === "scissors") ||
